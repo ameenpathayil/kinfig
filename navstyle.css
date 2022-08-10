@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+nav{
+    height: 100px;
+    background: black;
+    padding:25px 0;
+    width: 100%;
+    position: relative;
+
+}
+nav .main-container{
+    margin:0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position:absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+
+}
+.menu{
+    
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 20px;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+
+}
