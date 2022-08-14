@@ -1,77 +1,112 @@
 /*  author=ameen_pathayil
     last updated=08/08/2022
 */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Roboto&display=swap');
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Roboto&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
 }
 /*  */
-/* media query for mobile devices*/
-@media screen and (max-width:960px) {
-    .kinfig-logo{
-        width: 100px;
-    }
-
-}
-/* main container */
-.main-container{
-    
-}
 /* main container image */
-.main-container-img{
-    background-image:linear-gradient(to bottom, rgba(66, 40, 100, 0.52), rgba(121, 37, 231, 0.52)),
-    url('img/main2.jpg');
-     width: 100%;
-     height: 100vh;
-     background-size: cover;
+.homepage-bg {
+  background: linear-gradient(
+      95.62deg,
+      rgba(0, 37, 141, 0.5),
+      rgba(3, 35, 124, 0.5)
+    ),
+    url("img/main2.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.kinfig-white-logo {
+  width: 17rem;
+}
+.homepage-content-box {
+  margin: 0 2rem;
+  padding: 3rem;
 }
 /* navbar menu heading */
-.navbar-nav a{
-    font-size: 18px;
-    margin: 0 20px;
-    color: white;
-    font-weight: 700;
+.navbar-nav a {
+  font-size: 18px;
+  margin: 0 20px;
+  color: white;
+  font-weight: 700;
 }
-.coming-soon{
-    background-color: #45ae50;
-    border-radius: 35px;
-    opacity: 1;
-
+.coming-soon {
+  background-color: #45ae50;
+  border-radius: 35px;
+  opacity: 1;
 }
-.mobile-nav-logo-img{
-    width: 100px;
+.mobile-nav-logo-img {
+  width: 100px;
 }
 
 /* family quate text container */
-.main-container-quat-head h1{
-    color: white;
-    font-weight: 500;
-    font-size: 50px;
-    margin-top: 200px;
+.homepage-contentbox-content h1 {
+  color: white;
+  font-weight: 500;
+  font-size: 50px;
+  margin-top: 15rem;
 }
-.main-container-quat-head p{
-    margin-top: 20px;
-    font-size: 20px;
-    color: white;
-    font-weight: 200;
+.homepage-contentbox-content p {
+  margin-top: 20px;
+  font-size: 20px;
+  color: white;
+  font-weight: 200;
 }
 /* container mockup image  */
-.main-container-mockup-img{  
-padding-top: 30px; 
-display: flex;
-justify-content: center;
+.homepage-contentbox-img {
+  display: flex;
+  justify-content: center;
 }
-..main-container-mockup-img img{
-    
+.homepage-contentbox-img img {
+  margin-top: 4rem;
 }
-.second-box{
-    margin-top: 50px;
-}
-.third-box{
-    margin-top: 50px;
+.homepage-mockup {
+  width: 25rem;
 }
 
+.navbar-toggler span {
+  width: 3rem;
+  height: 2rem;
+}
+
+/* media query for mobile devices*/
+@media screen and (max-width: 960px) {
+  .kinfig-color-logo {
+    width: 10rem;
+  }
+  .kinfig-white-logo-div img {
+    width: 10rem;
+  }
+  .navbar-nav {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: l
+      linear-gradient(95.62deg, rgba(0, 37, 141, 0.5), rgba(3, 35, 124, 0.5));
+  }
+  .homepage-contentbox-content h1 {
+    color: white;
+    font-weight: 300;
+    font-size: 35px;
+    margin-top: 10rem;
+    text-align: center;
+  }
+  .homepage-contentbox-content p {
+    margin-top: 20px;
+    font-size: 15px;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+  }
+  .homepage-mockup{
+    width: 15rem;
+  }
+}
