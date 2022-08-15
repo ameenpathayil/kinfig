@@ -180,7 +180,7 @@
   }
   .card-content{
     margin: 1rem 2rem;
-    padding: 3rem;
+    padding: 1rem 3rem;
   }
   .homepage-contentbox-content h1 {
     color: white;
@@ -206,6 +206,8 @@
     width: 10rem;
 
   }
-  .aboutus{
-    margin: 1rem 0 ;
+  .aboutus-card{
+    margin: 5rem 5rem 5rem 2rem;
+  }
+
 }
