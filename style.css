@@ -77,6 +77,97 @@
   height: 2rem;
 }
 
+.card-content{
+  margin: 3rem 2rem;
+  padding: 3rem;
+}
+.aboutus{
+  margin: 3rem 0 ;
+}
+.aboutus-kinfiglogo-div img{
+
+}
+.aboutus-text h2{
+  font-size: 3rem;
+  letter-spacing: .2rem;
+  padding-left: 2rem;
+  margin-bottom: 3rem;
+  border-left:.5rem solid #29317e;
+  font-weight: bold  
+}
+.aboutus-text span{
+  font-size: 3rem;
+  color: #29317e;
+}
+.aboutus-text p{
+  font-size: 2rem;
+  color: #525252;
+}
+.create-family{
+  margin: 3rem 0;
+}
+.card-content-text{
+  padding-top: 10rem;
+}
+.card-content-text h1{
+  font-size: 3rem;
+  letter-spacing: .2rem;
+  padding-left: 2rem;
+  margin-bottom: 3rem;
+  border-left:.5rem solid #29317e;
+  font-weight: bold   ;
+
+}
+.card-content-text span{
+  font-size: 3rem;
+  color: #29317e;
+}
+.card-content-text p{
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #4b4b4b;
+  margin-bottom: 2rem;
+  width: 80%;
+}
+.card-content-text ul{
+  
+
+}
+.card-content-text li{
+  list-style: none;
+  display: flex;
+  align-items:center ;
+  margin-bottom: 6px;
+}
+.card-content-text li span{
+  margin-right: 1.6rem;
+  padding: .8rem;
+  border-radius: 50%;
+  background-color: #f7f6f6;
+}
+.card-content-text li img{
+  width: 1.5rem;
+  display: block;
+}
+.card-content-text li p{
+  color: #4b4b4b;;
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: 500;
+  margin: 1rem;
+
+}
+.card-content-image img{
+  max-width: 45%;
+  width: 100%;
+}
+.second-image{
+  margin: 2rem;
+  position: relative;
+  top: 8.5rem;
+  
+}
+
 /* media query for mobile devices*/
 @media screen and (max-width: 960px) {
   .kinfig-color-logo {
@@ -108,5 +199,12 @@
   }
   .homepage-mockup{
     width: 15rem;
+  }
+  .card-content-image{
+    text-align: center;
+  }
+  .card-content-image img{
+    width: 10rem;
+
   }
 }
