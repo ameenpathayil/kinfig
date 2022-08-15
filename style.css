@@ -76,13 +76,12 @@
   width: 3rem;
   height: 2rem;
 }
-
-.card-content{
-  margin: 3rem 2rem;
-  padding: 3rem;
+.aboutus-card{
+  margin: 5rem;
 }
-.aboutus{
-  margin: 3rem 0 ;
+.card-content{
+  margin: 2rem 2rem 7rem 2rem;
+  padding: 3rem;
 }
 .aboutus-kinfiglogo-div img{
 
@@ -128,10 +127,6 @@
   color: #4b4b4b;
   margin-bottom: 2rem;
   width: 80%;
-}
-.card-content-text ul{
-  
-
 }
 .card-content-text li{
   list-style: none;
@@ -183,6 +178,10 @@
     background: l
       linear-gradient(95.62deg, rgba(0, 37, 141, 0.5), rgba(3, 35, 124, 0.5));
   }
+  .card-content{
+    margin: 1rem 2rem;
+    padding: 3rem;
+  }
   .homepage-contentbox-content h1 {
     color: white;
     font-weight: 300;
@@ -207,4 +206,6 @@
     width: 10rem;
 
   }
+  .aboutus{
+    margin: 1rem 0 ;
 }
