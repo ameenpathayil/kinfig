@@ -168,6 +168,7 @@
   background: url('img/footerbg.jpg');
   text-align: center;
   padding: 3rem;
+  background-size: cover;
 }
 .footer-content img{
   width: 12rem;
