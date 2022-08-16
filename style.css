@@ -83,8 +83,9 @@
   margin: 2rem 2rem 7rem 2rem;
   padding: 3rem;
 }
-.aboutus-kinfiglogo-div img{
-
+.aboutus-image{
+  display: grid;
+  align-items: center;
 }
 .aboutus-text h2{
   font-size: 3rem;
@@ -106,7 +107,7 @@
   margin: 3rem 0;
 }
 .card-content-text{
-  padding-top: 10rem;
+  padding-top: 8rem;
 }
 .card-content-text h1{
   font-size: 3rem;
@@ -163,6 +164,10 @@
   
 }
 
+.footer-image{
+  background: url('img/footerbg.jpg');
+}
+
 /* media query for mobile devices*/
 @media screen and (max-width: 960px) {
   .kinfig-color-logo {
@@ -178,21 +183,25 @@
     background: l
       linear-gradient(95.62deg, rgba(0, 37, 141, 0.5), rgba(3, 35, 124, 0.5));
   }
+  .aboutus-text p{
+    font-size: 1.6rem;
+    color: #525252;
+  }
   .card-content{
-    margin: 1rem 2rem;
-    padding: 1rem 3rem;
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
   }
   
   .homepage-contentbox-content h1 {
     color: white;
     font-weight: 300;
-    font-size: 35px;
+    font-size: 3.5rem;
     margin-top: 10rem;
     text-align: center;
   }
   .homepage-contentbox-content p {
-    margin-top: 20px;
-    font-size: 15px;
+    margin-top: 2rem;
+    font-size: 1.5rem;
     color: white;
     font-weight: 100;
     text-align: center;
@@ -203,18 +212,46 @@
   .card-content-image{
     text-align: center;
   }
+  .card-content-text h1{
+    font-size: 2.8rem;
+    letter-spacing: .15rem;
+    padding-left: 1rem;
+    margin-bottom: 3rem;
+    border-left:.5rem solid #29317e;
+    font-weight: bold   ;
+  
+  }
+  .card-content-text p{
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: #4b4b4b;
+    margin-bottom: 2rem;
+    width: 80%;
+  }
+  .card-content-text li p{
+    color: #4b4b4b;;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: 500;
+    margin: 1rem;
+  
+  }
   .card-content-image img{
     width: 10rem;
 
   }
   .aboutus-card{
-    margin: 5rem 5rem 5rem 2rem;
+    margin: 5rem 1rem 1rem 2rem;
   }
 .aboutus{
   padding: 0 3rem 3rem 2rem;
 }
 .aboutus-logo-image{
   display: none;
+}
+.createfamily-content{
+  margin-top: -13rem;
+  
 }
 
 }
