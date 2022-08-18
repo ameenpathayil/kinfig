@@ -20,7 +20,7 @@
     ),
     url("img/main2.jpg");
   width: 100%;
-  height: 100vh;
+  height: 75vh;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -37,11 +37,13 @@
   margin: 0 20px;
   color: white;
   font-weight: 700;
+  text-align: center;
 }
-.coming-soon {
+.coming-soon{
   background-color: #45ae50;
   border-radius: 35px;
   opacity: 1;
+  width: 180px;
 }
 .mobile-nav-logo-img {
   width: 100px;
@@ -103,11 +105,15 @@
   font-size: 2rem;
   color: #525252;
 }
-.create-family{
+.createfamily-content{
   margin: 3rem 0;
 }
 .card-content-text{
   padding-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 .card-content-text h1{
   font-size: 3rem;
@@ -165,7 +171,7 @@
 }
 
 .footer-content{
-  background: url('img/footerbg.jpg');
+  background:url('img/footerbg.jpg');
   text-align: center;
   padding: 3rem;
   background-size: cover;
@@ -201,6 +207,15 @@
 
 /* media query for mobile devices*/
 @media screen and (max-width: 960px) {
+  html,body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-size: 62.5%;
+    overflow-x: hidden; 
+  }
   .kinfig-color-logo {
     width: 10rem;
   }
@@ -208,15 +223,50 @@
     width: 10rem;
   }
   .navbar-nav {
+    top: 0;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: l
-      linear-gradient(95.62deg, rgba(0, 37, 141, 0.5), rgba(3, 35, 124, 0.5));
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(50deg, #475fa0, #03237c);
+    border-radius: 25px;
+  }
+  .navbar-nav a {
+    font-size: 18px;
+    color: white;
+    margin-top: 2rem;
+    font-weight: 700;
+    padding-bottom: 24px;
+    text-align:center ;
+    margin: 2rem 2rem;
+   
+  }
+  #navbar-boder{
+    border-bottom:0.4rem dashed #a0a0a0;
+    border-width: 2px;
+    border-spacing:5px ;
+  }
+  .coming-soon{
+    background-color: #45ae50;
+    border-radius: 35px;
+    opacity: 1;
+    width: 180px;
+    height: 38px;
+  }
+  .homepage-contentbox-row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+    
   }
   .aboutus-text p{
     font-size: 1.6rem;
     color: #525252;
+    text-align: justify;
   }
   .card-content{
     margin: 1rem 1rem;
@@ -258,7 +308,8 @@
     line-height: 2.5rem;
     color: #4b4b4b;
     margin-bottom: 2rem;
-    width: 80%;
+    width: 100%;
+    text-align: justify;
   }
   .card-content-text li p{
     color: #4b4b4b;;
@@ -282,8 +333,14 @@
   display: none;
 }
 .createfamily-content{
-  margin-top: -13rem;
+  margin-top: -13em;
   
+}
+.createfamily-image{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 .footer-content ul li img{
   width:2rem;
@@ -292,6 +349,7 @@
   color: #b9b9b9;
   font-size: 1.6rem;
   text-decoration: none;
+  
 }
 
 }
