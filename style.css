@@ -9,6 +9,7 @@
   font-family: "IBM Plex Sans", sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 /*  */
 /* main container image */
@@ -35,15 +36,30 @@
 .navbar-nav a {
   font-size: 18px;
   margin: 0 20px;
-  color: white;
   font-weight: 700;
   text-align: center;
+}
+#navbar-boder{
+  letter-spacing: 2px;
+  color: white;
+  opacity: 0.7;
+}
+#navbar-boder:hover{
+  color: white;
+  opacity: 1;
 }
 .coming-soon{
   background-color: #45ae50;
   border-radius: 35px;
   opacity: 1;
   width: 180px;
+}
+.coming-soon span{
+  color: white;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
 }
 .mobile-nav-logo-img {
   width: 100px;
@@ -231,6 +247,7 @@
     height: 80%;
     background:linear-gradient(50deg, #475fa0, #03237c);
     border-radius: 25px;
+    overflow: hidden;
   }
   .navbar-nav a {
     font-size: 18px;
@@ -240,6 +257,7 @@
     padding-bottom: 24px;
     text-align:center ;
     margin: 2rem 2rem;
+    overflow: hidden;
    
   }
   #navbar-boder{
@@ -253,6 +271,7 @@
     opacity: 1;
     width: 180px;
     height: 38px;
+    overflow: hidden;
   }
   .homepage-contentbox-row{
     display: flex;
