@@ -351,5 +351,14 @@
   text-decoration: none;
   
 }
+.navbar-dark{
+  color: black;
+}
+i{
+  color: white;
+  font-size: 25px;
+  outline: none!important;
+}
+
 
 }
