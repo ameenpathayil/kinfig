@@ -22,46 +22,29 @@
     <div class="homepage-bg img-fluid">
       <div class="homepage-content-box">
         <!--navigation bar start-->
-        <nav class="navbar navbar-expand-lg">
-          <!--nav bar logo-->
-          <a class="navbar-brand" href="#">
-            <img
-              src="img/KinFig- Logo-with-talrop.png"
-              alt="kinfig logo"
-              width="170px"
-              class="img-fluid kinfig-color-logo"
-            />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-          <span><i class="fa-solid fa-bars"></i></span>
-          </button>
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarNavAltMarkup"
-          >
-            <!--nav bar menu-->
-            <div class="navbar-nav">
-              <a href="#" class="d-md-none d-lg-none kinfig-white-logo-div"
-                ><img
-                  src="img/kinfig white.png"
-                  class="img-fluid kinfig-white-logo"
-                  alt="kinflig logo"
-              /></a>
-              <a class="nav-link" href="#About-Us" id="navbar-boder">About Us</a>
-              <a class="nav-link" href="#Features" id="navbar-boder">Features</a>
-              <a class="nav-link" href="#Contact-Us" id="navbar-boder">Contact Us</a>
-              <a class="nav-link coming-soon" href="#"><span>Coming Soon...</span></a>
-            </div>
-          </div>
-        </nav>
+        
+        <header>
+          <a href="#" class="logo kinfig-white-logo"><img src="img/KinFig- Logo-with-talrop.png" alt="" width="170px"></a>
+      
+          <nav  data-aos="fade-down" data-aos-duration="3000" class="nav-menu hide">
+              <a class="close-mark"id="nav-close"><i class="fa-solid fa-xmark"></i></a>
+              <a href="#" class="d-md-none d-lg-none kinfig-white-logo-div" id="kinfig-logo-white"
+                      ><img
+                        src="img/kinfig white.png"
+                        class="img-fluid kinfig-white-logo"
+                        alt="kinflig logo"
+                    /></a>
+                    <a class="nav-link11" href="#About-Us" id="about-us">About Us</a>
+                    <a class="nav-link11" href="#Features" id="feaurets">Features</a>
+                    <a class="nav-link11" href="#Contact-Us" id="contactus">Contact Us</a>
+                    <a class="nav-link12 coming-soon" href="#" id="comingsoon"><span>Coming Soon...</span></a>
+                    
+          </nav>
+          
+      
+          <a class="menu-open" id="nav-open" ><i class="fa-solid fa-bars"></i></a>
+      </header>
+
         <!--navigation bar end-->
 
         <!--main wrapper text image container-->
@@ -336,7 +319,7 @@
       </div>
     </footer>
 
-
+    <script src="script.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
